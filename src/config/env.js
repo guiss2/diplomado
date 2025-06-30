@@ -15,6 +15,7 @@ const config = {
   BCRYPT_SALT_ROUND: + process.env.BCRYPT_SALT_ROUND ,
   JWT_SECRET: process.env.JWT_SECRET ,
   JWT_EXPIRES_SECONDS: process.env.JWT_EXPIRES_SECONDS,
+  DB_USE_SSL: process.env.DB_USE_SSL ?? false
 };
 
 export default config;
