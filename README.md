@@ -11,7 +11,7 @@ git clone https://github.com/guiss2/diplomado.git
 ```bash
  npm install
 ```
-### 3 
+### 3 copiar variuables de entorno y configurar
 ```bash
  cp .env.sample.env
 ```
